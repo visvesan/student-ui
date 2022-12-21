@@ -1,0 +1,4 @@
+<!-- <a routerLink="bookdetails/{{bookId}}">Book Details</a> -->
+<a [routerLink]="['bookdetails',bookId]">Book Details</a>
+<a [routerLink]="['/public/bookdetails/',bookId,'author',authorId]">Book Details</a>
+<router-outlet></router-outlet>
